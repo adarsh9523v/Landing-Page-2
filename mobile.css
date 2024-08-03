@@ -1,0 +1,208 @@
+@media only screen and (max-width: 640px) {
+    nav {
+        justify-content: center;
+    }
+
+    nav .btn-2 {
+        display: none;
+    }
+
+    #hero {
+        max-width: 450px;
+        padding: 55px 55px;
+    }
+
+    #hero .hero-contents h1 {
+        font-size: 40px;
+    }
+
+    .logo-section {
+        flex-wrap: wrap;
+        padding: 25px;
+        height: auto;
+        gap: 35px;
+    }
+
+    #features {
+        max-width: 450px;
+    }
+
+    #features .features-heading {
+        text-align: center;
+        padding: 0 15px 40px;
+    }
+
+    #features .features-heading h1 {
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    .fea-container {
+        padding: 0 15px;
+    }
+
+    .metrices-heading {
+        padding: 0 15px;
+    }
+
+    .metrices-container {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 10px;
+    }
+
+    #cta-1 {
+        max-width: 500px;
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #cta-1 .hero-img img {
+        width: 450px;
+        height: 350px;
+    }
+
+    #cta-1 .cta1-contents {
+        width: 100%;
+    }
+
+    #cta-1 .cta1-contents h1 {
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    #cta-1 .cta1-contents p {
+        font-size: 20px;
+    }
+
+    #cta-1 .cta1-contents .btn-3 {
+        margin-left: 120px;
+    }
+
+
+    #testimonials {
+        max-width: 450px;
+        margin-top: 40px;
+        gap: 10px;
+    }
+
+    .test-heading {
+        text-align: center;
+        padding: 0 15px 40px
+    }
+
+    .test-heading h1 {
+        font-size: 35px;
+        font-weight: 600
+    }
+
+    .test-heading p {
+        font-size: 16px;
+    }
+
+    .test-container {
+        padding: 0 15px;
+    }
+
+    #pricing {
+        max-width: 450px;
+    }
+
+    .pricing-heading {
+        text-align: center;
+        gap: 20px;
+        padding: 0 15px 40px;
+    }
+
+    .pricing-heading h1 {
+        font-size: 40px;
+        font-weight: 600
+    }
+
+    .pricing-heading p {
+        font-size: 16px;
+    }
+
+    .pricing-container {
+        padding: 0 15px;
+    }
+
+    #team {
+        max-width: 450px;
+    }
+
+    .team-container {
+        display: flex;
+        flex-direction: column;
+        padding: 0 15px;
+    }
+
+    .team-heading {
+        text-align: center;
+        gap: 20px;
+        padding: 0 15px;
+    }
+
+    .team-heading h1 {
+        font-size: 40pxpx;
+        font-weight: 600
+    }
+
+    .team-heading p {
+        font-size: 21px;
+    }
+
+    #cta-2 {
+        max-width: 500px;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        gap: 100px;
+    }
+
+    #cta-2 .hero-img img {
+        width: 450px;
+        height: 350px;
+    }
+
+    #cta-2 .cta1-contents {
+        width: 100%;
+    }
+
+    #cta-2 .cta1-contents h1 {
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+    #cta-2 .cta1-contents p {
+        font-size: 22px;
+        font-weight: 400;
+    }
+
+    #cta-2 .cta1-contents .btn-3 {
+        margin-left: 120px;
+    }
+
+    .contact-container {
+        grid-template-columns: revert;
+    }
+
+    .footer {
+        padding: 0 15px;
+        max-width: 450px;
+        justify-content: center;
+        align-items: start;
+        gap: 15px;
+        flex-direction: column-reverse;
+    }
+
+    .footer i {
+        /* font-size: 20px; */
+    }
+
+    .footer span {
+        margin-left: 0;
+    }
+
+
+}

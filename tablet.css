@@ -1,0 +1,158 @@
+@media only screen and (max-width: 780px) {
+    nav {
+        padding: 20px 30px;
+        max-width: 780px;
+    }
+
+    nav .btn-1 {
+        display: none;
+    }
+
+    nav .btn-3 {
+        display: none;
+    }
+
+    #hero {
+       flex-direction: column !important; 
+       text-align: center;
+       align-items: center !important;
+    }
+
+    .hero-contents {
+        align-items: center !important;
+    }
+
+    .hero-btn .btn-2 {
+        display: none !important;
+    }
+    .hero-btn .btn-3{
+        margin-left: 100px;
+    }
+    #logobar {
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .logo-section {
+        justify-content: space-between !important;
+        gap: 20px;
+    }
+
+
+    #features {
+        max-width: 744px;
+    }
+
+    .features-heading {
+        padding-bottom: 40px;
+    }
+
+    .fea-container {
+        overflow: hidden;
+        width: 100%;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        gap: 20px;
+    }
+
+    #metrices {
+        max-width: 744px;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .metrices-container {
+        width: 100%;
+        gap: 10px;
+        overflow: hidden;
+    }
+
+    .metrices-heading {
+        width: 100%;
+        gap: 10px;
+    }
+
+
+    #cta-1 {
+        padding: 0;
+        gap: 20px;
+    }
+
+    .cta1-contents {
+        width: 50%;
+    }
+
+    .cta1-contents h1 {
+        font-size: 35px;
+    }
+
+    #cta-1 .hero-img img{
+        width: 320px;
+        height: 266px;
+        padding-left: 10px;
+    }
+
+
+    #cta-2 {
+        max-width: 744px;
+        padding: 0;
+        gap: 20px;
+        background: #F2BFAF;
+        padding: 15px 15px 30px 15px;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .cta2-contents {
+        width: 50%;
+    }
+
+    .cta2-contents h1 {
+        font-size: 35px;
+    }
+    #cta-2 .hero-img img{
+        width: 320px;
+        height: 266px;
+        padding-left: 10px;
+    }
+
+
+    #testimonials {
+        max-width: 744px;
+    }
+
+    .test-heading {
+        padding-bottom: 40px;
+    }
+
+    .test-container {
+        max-width: 680px;
+        width: 100%;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        gap: 20px;
+    }
+
+    #pricing {
+        max-width: 744px;
+    }
+
+    .pricing-heading {
+        padding-bottom: 40px;
+    }
+
+    .pricing-container {
+        max-width: 680px;
+        width: 100%;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        gap: 20px;
+    }
+
+}

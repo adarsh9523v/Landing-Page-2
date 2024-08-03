@@ -300,14 +300,17 @@ nav ul li:nth-child(2) {
     display: flex;
     flex-direction: column;
 }
+
 .test-box span {
     color: #374151;
     padding-bottom: 2rem;
 }
+
 .test-box p {
     padding-bottom: 2rem;
 }
-.star i{
+
+.star i {
     color: #F8D57E;
     font-size: 25px;
 }

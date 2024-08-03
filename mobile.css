@@ -16,11 +16,21 @@
         font-size: 40px;
     }
 
+    #hero .hero-contents p {
+        padding: 0 15px;
+    }
+
     .logo-section {
         flex-wrap: wrap;
         padding: 25px;
         height: auto;
         gap: 35px;
+    }
+
+    #hero .hero-img img {
+        width: 450px;
+        height: 350px;
+        padding: 15px 15px;
     }
 
     #features {
@@ -69,16 +79,19 @@
     #cta-1 .cta1-contents h1 {
         font-size: 40px;
         font-weight: 600;
+        padding: 0 15px;
     }
 
     #cta-1 .cta1-contents p {
         font-size: 20px;
+        padding: 0 15px;
     }
 
-    #cta-1 .cta1-contents .btn-3 {
-        margin-left: 120px;
+    #cta-1 .cta1-contents .cta-btn {
+        padding: 0 15px;
+        justify-content: center !important;
+        width: 100%;
     }
-
 
     #testimonials {
         max-width: 450px;
@@ -194,10 +207,6 @@
         align-items: start;
         gap: 15px;
         flex-direction: column-reverse;
-    }
-
-    .footer i {
-        /* font-size: 20px; */
     }
 
     .footer span {

@@ -13,9 +13,9 @@
     }
 
     #hero {
-       flex-direction: column !important; 
-       text-align: center;
-       align-items: center !important;
+        flex-direction: column !important;
+        text-align: center;
+        align-items: center !important;
     }
 
     .hero-contents {
@@ -25,9 +25,11 @@
     .hero-btn .btn-2 {
         display: none !important;
     }
-    .hero-btn .btn-3{
-        margin-left: 100px;
+
+    .hero-btn {
+        justify-content: center;
     }
+
     #logobar {
         padding: 0;
         overflow: hidden;
@@ -88,10 +90,10 @@
         font-size: 35px;
     }
 
-    #cta-1 .hero-img img{
+    #cta-1 .hero-img img {
         width: 320px;
         height: 266px;
-        padding-left: 10px;
+        padding-left: 20px;
     }
 
 
@@ -112,7 +114,8 @@
     .cta2-contents h1 {
         font-size: 35px;
     }
-    #cta-2 .hero-img img{
+
+    #cta-2 .hero-img img {
         width: 320px;
         height: 266px;
         padding-left: 10px;
